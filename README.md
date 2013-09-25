@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Open build tools
+open-buildtools
 =============
 
 To include:
@@ -9,7 +8,3 @@ To include:
 3. Jam
 4. JSHINT
 5. Uglify
-=======
-open-buildtools
-===============
->>>>>>> 7d1d2d515dae8f6e3adeca69f7b4df32fd4216ea
