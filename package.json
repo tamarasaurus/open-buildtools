@@ -24,14 +24,30 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
+  "bin": {
+    "bower": "./bin/bower",
+    "sass": "./bin/sass",
+    "jslint": "./bin/jshint",
+    "grunt": "./bin/grunt-cli",
+    "concat": "./bin/concat",
+    "uglify": "./bin/uglifyjs"
+  },
   "dependencies": {
-    "jam": "~0.6.0"
+    "bower": "~1.2.6",
+    "sass": "~0.5.0",
+    "jshint": "~2.1.11",
+    "grunt-cli": "~0.1.9",
+    "concat": "~0.2.4",
+    "uglify-js": "~2.4.0",
+    "watch": "~0.8.0"
   },
   "scripts": {
     "start": "node run.js"
   },
   "private": true,
   "devDependencies": {
-    "async": "~0.2.9"
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }
